@@ -18,13 +18,13 @@ Usage
 
 Using this field is just the same as a TextField, only with the additional requirement of calling the setSuggestions() method, to populate the autocomplete data.
 
-$field = new ZenAutoCompleteField('FieldName', 'Field Name');
+	$field = new ZenAutoCompleteField('FieldName', 'Field Name');
 
-$field->setSuggestions(array(
-	'suggestion one',
-	'suggestion two',
-	'suggestion three',
-));
+	$field->setSuggestions(array(
+		'suggestion one',
+		'suggestion two',
+		'suggestion three',
+	));
 
-$fields->addFieldToTab('Root.Test', $field);
+	$fields->addFieldToTab('Root.Test', $field);
 
