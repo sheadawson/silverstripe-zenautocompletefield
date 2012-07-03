@@ -13,6 +13,11 @@ Requirements
 
 SilverStripe 3.0
 
+Installation
+-------------
+
+Copy the module into your project root directory, rename the folder to "zenautocompletefield", run dev/build
+
 Usage
 -------------
 
