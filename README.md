@@ -6,5 +6,5 @@ A basic autocomplete text field using jquery ui
 Requirements
 ------------
 
-SilverStripe 2.4
+SilverStripe 2.4 
 
