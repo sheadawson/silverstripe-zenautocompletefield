@@ -22,7 +22,7 @@ class ZenAutoCompleteField extends TextField {
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-ui/jquery-ui.js');
-		Requirements::javascript('zenautocompletefield/zenautocompletefield.js');
+		Requirements::javascript('zenautocompletefield/javascript/zenautocompletefield.js');
 	}
 
 	
@@ -31,6 +31,7 @@ class ZenAutoCompleteField extends TextField {
 	 */
 	function setSuggestions(Array $suggestions) {
 		$this->suggestions = $suggestions;
+		return $this;
 	}
 
 
