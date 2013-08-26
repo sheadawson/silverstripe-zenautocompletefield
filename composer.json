@@ -12,7 +12,8 @@
 	{
 		"name": "Shea Dawson",
 		"email": "shea@silverstripe.com.au"
-	},
+	}
+	],
 	"minimum-stability": "dev",
 	"replace": {"silverstripe/zenautocompletefield": "*"}
 }
