@@ -1,4 +1,4 @@
-silverstripe-zenautocompletefield
+NO LONGER MAINTAINED
 =================================
 
 A basic autocomplete text field using jquery ui
@@ -6,7 +6,7 @@ A basic autocomplete text field using jquery ui
 Maintainer
 ------------
 
-shea@silverstripe.com.au
+shea@livesource.co.nz
 
 Requirements
 ------------
